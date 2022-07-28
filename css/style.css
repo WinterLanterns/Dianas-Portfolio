@@ -1,0 +1,27 @@
+/* font-family: 'Marcellus', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+* {
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.bg-image {
+  width: 100%;
+  height: 115vh;
+  background: url("../img/hero-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-page {
+  padding-top: 105px;
+  padding-bottom: 140px;
+}
+
+h1 {
+  font-family: "Marcellus", serif;
+  line-height: 2rem;
+}
