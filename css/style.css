@@ -1,4 +1,5 @@
-/* font-family: 'Marcellus', serif;
+/* font-family: 'Gwendolyn', cursive;
+font-family: 'Marcellus', serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
@@ -6,22 +7,47 @@ font-family: 'Poppins', sans-serif; */
   letter-spacing: 3px;
   font-weight: 300;
 }
+header {
+  background-color: #1c1c1c;
+}
+
+.logo {
+  font-family: "Gwendolyn", cursive;
+  letter-spacing: 0;
+  text-transform: none;
+}
 
 .bg-image {
   width: 100%;
-  height: 115vh;
+  height: 100vh;
   background: url("../img/hero-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+.bgimage-leaves {
+  background: url(../img/leaves.png);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 30px;
+  left: 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .hero-page {
-  padding-top: 105px;
+  padding-top: 95px;
   padding-bottom: 140px;
 }
 
 h1 {
   font-family: "Marcellus", serif;
   line-height: 2rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
 }
