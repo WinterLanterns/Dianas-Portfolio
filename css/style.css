@@ -43,11 +43,26 @@ header {
   padding-bottom: 140px;
 }
 
-h1 {
+h1,
+h5 {
   font-family: "Marcellus", serif;
   line-height: 2rem;
+  z-index: 3;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
+  line-height: 2rem;
+  z-index: 3;
+}
+
+.teddy-rex {
+  width: 350px;
+  height: auto;
+  position: relative;
+  bottom: 17px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
 }
