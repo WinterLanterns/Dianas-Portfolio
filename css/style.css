@@ -66,3 +66,8 @@ p {
   -ms-transform: translate(-50%, 0);
   -webkit-transform: translate(-50%, 0);
 }
+
+.project-img {
+  width: 300px;
+  height: auto;
+}
