@@ -14,6 +14,11 @@
       crossorigin="anonymous"
     />
 
+    <!--Owl 1-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -82,6 +87,13 @@
                 >
               </li>
               <li
+                class="nav-item border border-top-0 border-bottom-0 border-warning px-4"
+              >
+                <a class="nav-link active" aria-current="page" href="#artwork"
+                  >Artwork</a
+                >
+              </li>
+              <li
                 class="nav-item border border-top-0 border-bottom-0 border-left-0 border-warning px-4"
               >
                 <a class="nav-link active" aria-current="page" href="#"
@@ -96,7 +108,7 @@
       <!-- jumbotron -->
 
       <div
-        class="container border border-top-0 border-left border-right border-warning ms-auto p-2"
+        class="container border border-top-0 border-left border-right border-warning ms-auto p-2" style="z-index: -1;"
       >
         <div class="row ms-auto hero-page">
           <div
@@ -132,7 +144,7 @@
     </header>
     <!-- leaves  -->
     <!-- <div
-      class="bgimage-leaves opacity-75 fixed-bottom"
+      class="bgimage-leaves opacity-75 fixed-top"
       style="z-index: 0"
     ></div> -->
 
@@ -141,7 +153,7 @@
     <section
       class="sec p-1 py-5"
       style="background-color: white"
-      style="z-index: 3"
+      style="z-index: 10"
       id="about"
     >
       <div class="container col-sm-12 d-flex justify-content-around my-2">
@@ -217,7 +229,7 @@
 
     <section
       class="sec pt-2 pb-5"
-      style="background-color: #1c1c1c; z-index: 3"
+      style="background-color: #1c1c1c;"
       id="hobbies"
     >
       <div class="container col-sm-12 d-flex justify-content-around my-2">
@@ -240,8 +252,9 @@
           </div>
         </div>
       </div>
-      <div class="container my-5">
-        <div class="row  d-flex justify-content-center >
+
+      <div class="container my-5  d-flex justify-content-center">
+        <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-12 px-5">
             <div
               class="card text-center border-0"
@@ -311,11 +324,11 @@
       </div>
     </section>
 
-    <!-- gallery -->
+    <!-- project -->
 
     <section
       class="sec p-1 py-5"
-      style="background-color: white"
+      style="background-color: #f9f9fa"
       style="z-index: 3"
       id="projects"
     >
@@ -340,7 +353,7 @@
         </div>
       </div>
 
-      <div class="container border border-warning my-2 py-3">
+      <div class="container my-2 py-3">
         <h2 class="text-center">Web Development</h2>
         <div class="row text-center">
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -356,90 +369,119 @@
             <a href=""><img class="project-img" src="img/icon.png" alt="" /></a>
           </div>
         </div> <!--row1-->
-        <div class="container "> <!--container2-->
-        <h2 class="text-center">Art</h2>
-        <!-- row 2 -->
-        <div class="row text-center">
-          <div class="col-lg-3 col-md-6 col-sm-12 ">
-            <div class="card bg-transparent border-0" style="width: 18rem;">
-              <img src="img/crow.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Crow</h5>
-              </div>
-            </div>          
-          </div>
-          <!-- card 2 -->
-          <div class="col-lg-3 col-md-6 col-sm-12 ">
-            <div class="card bg-transparent border-0" style="width: 18rem;">
-              <img src="img/family.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Family</h5>
-              </div>
-            </div>          
-          </div>
-          <!-- card 3 -->
-          <div class="col-lg-3 col-md-6 col-sm-12 ">
-            <div class="card bg-transparent border-0" style="width: 18rem;">
-              <img src="img/skullknight.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Skull Knight</h5>
-              </div>
-            </div>          
-          </div>
-          <!-- card 4 -->
-          <div class="col-lg-3 col-md-6 col-sm-12 ">
-            <div class="card bg-transparent border-0" style="width: 18rem;">
-              <img src="img/skullknightkirby.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Kirby as Skull Knight</h5>
-              </div>
-            </div>          
-          </div>
-          
-        </div> <!--row 2-->
-          <!-- row 3 -->
-       
-        <!-- row 3 -->
-        <div class="row text-center">
-          <div class="col-lg-3 col-md-6 col-sm-12 ">
-            <div class="card bg-transparent border-0" style="width: 18rem;">
-              <img src="img/traditionallady.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Tattoo idea for my Brother</h5>
-              </div>
-            </div>          
-          </div>
-          <!-- card 2 -->
-          <div class="col-lg-3 col-md-6 col-sm-12 ">
-            <div class="card bg-transparent border-0" style="width: 18rem;">
-              <img src="img/traditionalrocky.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Rocky Traditional Style</h5>
-              </div>
-            </div>          
-          </div>
-          <!-- card 3 -->
-          <div class="col-lg-3 col-md-6 col-sm-12 ">
-            <div class="card bg-transparent border-0" style="width: 18rem;">
-              <img src="img/guildwars.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Guild Wars Icon</h5>
-              </div>
-            </div>          
-          </div>
-          <!-- card 4 -->
-          <div class="col-lg-3 col-md-6 col-sm-12 ">
-            <div class="card bg-transparent border-0" style="width: 18rem;">
-              <img src="img/nkirby.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Kirby</h5>
-              </div>
-            </div>          
-          </div>
-          
-        </div> <!--row 3-->
-      </div> <!--container2-->
       </div> <!--container1-->
+      </section>
+       
+      <!-- Art  -->
+
+      <section
+      class="sec pt-2 pb-5"
+      style="background-color: #1c1c1c; z-index: 3"
+      id="artwork"
+    >
+      <div class="container col-sm-12 d-flex justify-content-center my-2">
+        <div class="row">
+          <div class="col-12">
+            <h1
+              class="text-light display-4 text-uppercase pt-5 mt-5 mb-3 fw-lighter text-center"
+            >
+              Artwork
+            </h1>
+
+            <!-- divider  -->
+
+            <img
+              style="width: 350px"
+              class="mb-5"
+              src="img/dividery.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <hr class="border-warning" >
+      <!-- slide  -->
+      <div class="container">
+        <div class="row rounded-4 p-5 " style="background-color:#2b2b2b;">
+          <div class="owl-carousel owl-theme border border-top-0 border-bottom-0 border-warning" style="color: white;">
+            <div class="item">
+              <div class="card  border-0 bg-transparent shadow p-3 mb-5 bg-white rounded text-uppercase text-light border-warning" style="width: 15rem;">
+                  <img src="img/crow.png" class="card-img-top gallery" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Crow</h5>
+                  </div>
+              </div>
+            </div> <!--item-->
+
+            <div class="item">
+              <div class="card  border-0 bg-transparent shadow p-3 mb-5 bg-white rounded text-uppercase text-light border-warning" style="width: 15rem;">
+                  <img src="img/nkirby.png" class="card-img-top gallery" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Itashi Kirby</h5>
+                  </div>
+              </div>
+            </div> <!--item-->
+
+            <div class="item">
+              <div class="card  border-0 bg-transparent shadow p-3 mb-5 bg-white rounded text-uppercase text-light border-warning" style="width: 15rem;">
+                  <img src="img/skullknight.png" class="card-img-top gallery" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Skull Knight</h5>
+                  </div>
+              </div>
+            </div> <!--item-->
+
+            <div class="item">
+              <div class="card  border-0 bg-transparent shadow p-3 mb-5 bg-white rounded text-uppercase text-light border-warning" style="width: 15rem;">
+                  <img src="img/kirk.png" class="card-img-top gallery" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Kirk "Dark Souls"</h5>
+                  </div>
+              </div>
+            </div> <!--item-->
+
+            <div class="item">
+              <div class="card  border-0 bg-transparent shadow p-3 mb-5 bg-white rounded text-uppercase text-light border-warning" style="width: 15rem;">
+                  <img src="img/skullknightkirby.png" class="card-img-top gallery" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Kirby Skull Knight</h5>
+                  </div>
+              </div>
+            </div> <!--item-->
+
+            <div class="item">
+              <div class="card  border-0 bg-transparent shadow p-3 mb-5 bg-white rounded text-uppercase text-light border-warning" style="width: 15rem;">
+                  <img src="img/traditionallady.png" class="card-img-top gallery" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Traditional Lady</h5>
+                  </div>
+              </div>
+            </div> <!--item-->
+
+            <div class="item">
+              <div class="card  border-0 bg-transparent shadow p-3 mb-5 bg-white rounded text-uppercase text-light border-warning" style="width: 15rem;">
+                  <img src="img/traditionalrocky.png" class="card-img-top gallery" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Traditional Husky</h5>
+                  </div>
+              </div>
+            </div> <!--item-->
+
+            <div class="item">
+              <div class="card  border-0 bg-transparent shadow p-3 mb-5 bg-white rounded text-uppercase text-light border-warning" style="width: 15rem;">
+                  <img src="img/plagueknight.png" class="card-img-top gallery" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Plague Knight</h5>
+                  </div>
+              </div>
+            </div> <!--item-->
+            
+        </div> <!--row1-->
+        </div>
+      </div>
+      
+     <hr class="border-warning" >
+      </section>
 
     <!-- Bootstrap -->
     <script
@@ -447,13 +489,29 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <!--OWL-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- owl -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
   </body>
 </html>
