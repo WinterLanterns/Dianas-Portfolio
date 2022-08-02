@@ -87,11 +87,45 @@ p {
   -webkit-transform: translate(-50%, 0);
 }
 
-.project-img {
+.project-img,
+.project-img-gray {
   width: 300px;
+}
+
+.project-img {
   height: auto;
+}
+.project-hands {
+  position:absolute
+  top: 20px;
+}
+
+.project-img:hover {
+  width: 350px;
 }
 
 .row-2 {
   background-color: #5a5959;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.bg-color {
+  background-color: #1c1c1c;
+}
+
+.footer-copyright {
+  font-size: 12px;
 }

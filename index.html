@@ -61,40 +61,40 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li
-                class="nav-item border border-top-0 border-bottom-0 border-right-0 border-warning px-4"
+                class="nav-item  px-4"
               >
                 <a class="nav-link active" aria-current="page" href="index.html"
                   >Home</a
                 >
               </li>
               <li
-                class="nav-item border border-top-0 border-bottom-0 border-warning px-4"
+                class="nav-item  px-4"
               >
                 <a class="nav-link active" aria-current="page" href="#about"
                   >About</a
                 >
               </li>
-              <li class="nav-item px-4">
+              <li class="nav-item  px-4">
                 <a class="nav-link active" aria-current="page" href="#hobbies"
                   >Hobbies</a
                 >
               </li>
               <li
-                class="nav-item border border-top-0 border-bottom-0 border-warning px-4"
+                class="nav-item  px-4"
               >
                 <a class="nav-link active" aria-current="page" href="#projects"
                   >Projects</a
                 >
               </li>
               <li
-                class="nav-item border border-top-0 border-bottom-0 border-warning px-4"
+                class="nav-item  px-4"
               >
                 <a class="nav-link active" aria-current="page" href="#artwork"
                   >Artwork</a
                 >
               </li>
               <li
-                class="nav-item border border-top-0 border-bottom-0 border-left-0 border-warning px-4"
+                class="nav-item px-4"
               >
                 <a class="nav-link active" aria-current="page" href="#contact"
                   >Contact</a
@@ -186,7 +186,7 @@
             <!-- about image -->
 
             <img
-              class="ms-auto w-100 border border-warning"
+              class="ms-auto w-100 border m border-warning"
               src="img/meandchristian.png"
               style="z-index: 3"
               alt=""
@@ -327,7 +327,7 @@
     <!-- project -->
 
     <section
-      class="sec p-1 py-5"
+      class="sec py-5"
       style="background-color: white"
       style="z-index: 3"
       id="projects"
@@ -352,21 +352,23 @@
           </div>
         </div>
       </div>
-
-      <div class="container my-2 py-3">
-        <h2 class="text-center">Web Development</h2>
-        <div class="row text-center">
-          <div class="col-lg-4 col-md-6 col-sm-12">
+      <!-- <div class="containter"><img class=" w-100" src="img/hands.png"alt=""></div> -->
+      <div class="container  mt-2 mb-5 py-3 px-5 border border-dark border-1  bg-light shadow-lg p-3 my -3">
+        <div class="row text-center mb-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 ">
+            <a href="https://winterlanterns.github.io/W4B-Project/"><img class="project-img" src="img/laptop.png" alt="" /></a>
             <h5>First Website</h1>
-            <a href="https://winterlanterns.github.io/W4B-Project/"><img class="project-img" src="img/icon.png" alt="" /></a>
+
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <h5>Project</h5>
-            <a href=""><img class="project-img" src="img/icon.png" alt="" /></a>
+            <a href=""><img class="project-img-gray" src="img/gray-laptop.png" alt="" /></a>
+            <h5>Soon</h5>
+
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <h5>Project</h5>
-            <a href=""><img class="project-img" src="img/icon.png" alt="" /></a>
+            <a href=""><img class="project-img-gray" src="img/gray-laptop.png" alt="" /></a>
+            <h5>soon</h5>
+
           </div>
         </div> <!--row1-->
       </div> <!--container1-->
@@ -402,7 +404,7 @@
       <!-- slide  -->
       <div class="container pb-5">
         <div class="row rounded-4 p-5 " style="background-color:#2b2b2b;opacity: 90%;">
-          <div class="owl-carousel owl-theme border border-top-0 border-bottom-0 border-warning" style="color: white;">
+          <div class="owl-carousel owl-theme " style="color: white;">
             <div class="item">
               <div class="card  border-0 bg-transparent shadow-lg p-3 my -3 bg-white rounded text-uppercase text-light border-warning text-center" style="width: 15rem;">
                   <img src="img/crow.png" class="card-img-top gallery" alt="...">
@@ -485,7 +487,7 @@
       <!-- contact  -->
 
       <section
-      class="sec p-1 py-5"
+      class="sec p-1 "
       style="background-color: white"
       style="z-index: 10"
       id="contact"
@@ -503,7 +505,7 @@
 
             <img
               style="width: 350px"
-              class="mb-5"
+              class="mb-2"
               src="img/star-divider2.png"
               alt=""
             />
@@ -511,8 +513,8 @@
         </div>
       </div>
 
-      <div class="container-fluid">
-        <div class="container">
+      <div class="container-fluid my-5">
+        <div class="container p-5">
           <form class="row" action="https://formsubmit.co/cccf831ce12d9aafa2d9cd9266072742" method="POST">
             <input type="text" name="_honey" style="display: none;">
             <input type="hidden" name="_captcha" value="false">
@@ -524,7 +526,7 @@
                 </div>
                 <div class="col mb-3">
                   <label class="form-label"> Last Name</label>
-                  <input type="lastName" class="form-control" placeholder="Last Name" id="lastName" name="Last&nbsp;Name" required>
+                  <input type="lastName" class="form-control" placeholder="Last Name" id="lastName" name="Last&nbsp;Name">
                 </div>
               </div> <!--row-->
               <div class="col mb-3">
@@ -537,7 +539,7 @@
               </div>
               <div class="col mb-3">
                 <label for="message" class="form-label">Message:</label>
-                <textarea class="form-control" placeholder="Your Message :)" rows="3" id="Message" name="message"></textarea>
+                <textarea class="form-control" placeholder="Your Message :)" rows="3" id="Message" name="message" required></textarea>
               </div>
               <button type="submit" class="btn btn-dark">Submit</button>
 
@@ -545,7 +547,7 @@
             </div class="ml-2">
             <div class="col-md-5">
               <div>
-                <img src="img/icon.png" alt="Image" class="img-fluid">
+                <img src="img/me.png" alt="Image" class="img-fluid  pt-5">
               </div>
             </div>
 
@@ -553,6 +555,62 @@
           </div>
           </form>
       </div>
+
+      <!-- footer  -->
+
+      <footer class="bg-color text-light pt-5 pb-4">
+        <div class="container text-center text-md-left">
+          <div class="row text-cneter text-md-left">
+            <div class="col-3 mx-auto mt-4">
+              <h5 class="text-uppercase mb-4 fw-bold text-warning">Thank You</h5>
+              <p class="text-light">Thank you for visiting my page. Hope to see you again! </p>
+            </div> <!--col1-->
+             <div class="col-lg-2 col-md-4 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold text-warning">Products Used</h5>
+              <p class="text-light">iPad Pro</p>
+              <p class="text-light">MacBook Pro</p>
+              <p class="text-light">Procreate</p>
+              <p class="text-light">VS Code</p>
+             </div> <!--col2-->
+             <div class="col-lg-2 col-md-4 mt-3 mx-auto">
+              <h5 class="text-uppercase mb-4 fw-bold text-warning">Info</h5>
+              <p class="text-light text-left"><i class="fa-solid fa-house"></i> Fresno ,Ca</p>
+              <p class="text-light"><i class="fa-solid fa-envelope"></i> mail@email.com</p>
+              <p class="text-light"><i class="fa-solid fa-phone"></i> 1(123)456-7890</p>
+             </div> <!--col3-->
+             <div class="col-lg-3 col-md-12 mx-auto mt-3">
+              <div class="d-flex">
+                <div class="container-fluid align-self-center">
+                  <div class="map-responsive">
+                    <iframe
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.6042393117946!2d-119.79015436511229!3d36.732065000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5cfdf4b6b%3A0xab092ce50c284a0a!2sBitwise%20Industries!5e0!3m2!1sen!2sus!4v1659459376829!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+              </div>
+             </div> <!--col4-->
+             <hr class="mb-4">
+             <div class="row align-items-center">
+              <div class="col-lg-6 col-md-6 float-start">
+                <p class="float-start footer-copyright">Copyright ©2022 by: Diana Diaz</p>
+              </div> <!--col5-->
+              <div class="col-lg-6 col-md-6">
+                <div class="text-center text-md-right">
+                  <ul class="list-unstyled"></ul>
+                  <li class="list-inline-item float-end mx-2">
+                    <a class="text-decoration-none text-light fs-3" href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li class="list-inline-item float-end mx-2">
+                    <a class="text-decoration-none text-light fs-3" href=""><i class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li class="list-inline-item float-end mx-2">
+                    <a class="text-decoration-none text-light fs-3" href="https://www.linkedin.com/in/diana-diaz-6a6093181/"><i class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                </div>
+              </div>
+             </div> <!--row2-->
+          </div> <!--row-->
+        </div> <!--container-->
+      </footer>
 
 
     <!-- Bootstrap -->
