@@ -112,3 +112,6 @@ p {
   float: none; /* Added */
   margin-bottom: 10px; /* Added */
 }
+.navbar>.container-fluid {
+  justify-content: space-around;
+}
