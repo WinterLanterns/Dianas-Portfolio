@@ -1,7 +1,3 @@
-/* font-family: 'Gwendolyn', cursive;
-font-family: 'Marcellus', serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif; */
 
 * {
   letter-spacing: 3px;
@@ -27,7 +23,7 @@ header {
   background-size: cover;
 }
 .bgimage-leaves {
-  background: url(../img/leaves.png);
+  background: url(https://i.ibb.co/ns7kXkf/leaves.png);
   width: 100%;
   height: 120vh;
 
@@ -37,26 +33,7 @@ header {
   background-attachment: fixed;
 }
 
-.img-left {
-  background: url(../img/leftleaf.png);
-  width: 10%;
-  height: 30vh;
-  position: absolute;
-  bottom: 20px;
-  background-repeat: repeat;
-  background-position: center;
-  background-size: cover;
-}
 
-.img-right {
-  background: url(../img/rightleaf.png);
-  width: 10%;
-  height: 30vh;
-  background-repeat: repeat;
-  background-position: right;
-  background-size: cover;
-  background-attachment: fixed;
-}
 
 .hero-page {
   padding-top: 95px;
