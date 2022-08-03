@@ -1,12 +1,12 @@
-# bootstrap-boilerplate
+# MF Bitwise Project
 
 ## Description
 
 ---
 
-## This is a Boilerplate with Bootstrap. Its a faster way of adding bootstrap to your project on github
+## This is a project for my 2nd class at bitwise. Hope you enjoy
 
-## Instructions on how to install
+## Bootstrap:
 
 Simply go to "https://getbootstrap.com/docs/5.2/getting-started/introduction/" where it shows the basic html code and link to bootstrap.
 
