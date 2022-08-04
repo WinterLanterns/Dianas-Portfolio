@@ -108,10 +108,7 @@ p {
 }
 
 .card {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
-}
-.navbar>.container-fluid {
-  justify-content: space-around;
+  margin: 0 auto; 
+  float: none; 
+  margin-bottom: 10px; 
 }
