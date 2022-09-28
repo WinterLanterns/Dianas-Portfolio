@@ -160,3 +160,13 @@ button:active {
   content: url(/img/star-dividers.png);
   zoom: 40%;
 }
+
+.form-control {
+  background-color:none; !important
+  color: #1c1c1c;
+}
+
+.formD {
+  background-color: #5a5959;
+  color: white;
+}

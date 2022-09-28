@@ -20,10 +20,16 @@ function darkM() {
   darkMode.classList.toggle("dark-mode");
   let section1 = document.querySelector("section");
   section1.classList.toggle("dark-section");
+  let section2 = document.querySelector("#projects");
+  section2.classList.toggle("dark-section");
+  let section3 = document.querySelector("#contact");
+  section3.classList.toggle("dark-section");
   let divider = document.querySelector(".dividers");
   divider.classList.toggle("dark-divider");
   let divider2 = document.querySelector(".dividers1");
   divider2.classList.toggle("dark-divider");
   let divider3 = document.querySelector(".dividers2");
   divider3.classList.toggle("dark-divider");
+  let textM = document.querySelector(".form-control1");
+  textM.classList.toggle("formD");
 }
