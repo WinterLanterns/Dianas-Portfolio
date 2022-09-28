@@ -1,7 +1,7 @@
 * {
   letter-spacing: 3px;
   font-weight: 300;
-  transition: all 0.5s linear;
+
 }
 header {
   background-color: #1c1c1c;
@@ -120,6 +120,9 @@ p {
   opacity: 1;
 }
 
+section {
+  transition: all 0.5s linear;
+}
 body,
 .sec {
   background-color: white;
