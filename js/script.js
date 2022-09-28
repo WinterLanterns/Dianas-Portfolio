@@ -32,4 +32,6 @@ function darkM() {
   divider3.classList.toggle("dark-divider");
   let textM = document.querySelector(".form-control1");
   textM.classList.toggle("formD");
+  let successP = document.querySelector(".secPage");
+  successP.classList.toggle("dark-section");
 }

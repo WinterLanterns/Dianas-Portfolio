@@ -124,7 +124,7 @@ section {
   transition: all 0.5s linear;
 }
 body,
-.sec {
+.sec, .sucPage{
   background-color: white;
   color: #1c1c1c;
 }
@@ -144,7 +144,16 @@ button:active {
 .light-mode {
   content: url(https://i.ibb.co/6tw8N0Y/sun.png);
   zoom: 1.5%;
-  transition: all 1s ease-in-out;
+}
+
+.light-mode2 {
+  content: url(https://i.ibb.co/6tw8N0Y/sun.png);
+  zoom: 3%;
+}
+
+.dark-mode2 {
+  content: url(https://i.ibb.co/56NRrYc/moon.png);
+  zoom: 3%;
 }
 
 .dark-mode {
