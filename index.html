@@ -6,7 +6,8 @@
     <title>Diana's Portfolio</title>
     <!-- CSS link  -->
     <link rel="stylesheet" href="css/style.css" />
-    <!-- favicon -->
+
+        <!-- favicon -->
     <link rel="icon" href="img/favicon.ico?v=2">
     <!-- Bootstrap -->
     <link
@@ -15,11 +16,13 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-
-    <!--Owl 1-->
+    
+    <!--owl-carousel-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- JS -->
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -62,6 +65,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
+              <li
+              class="nav-item d-flex align-items-center">
+              <button class="btn border-none noHover" onclick="darkM()"><img class="light-mode" src="" alt=""></button>
+              </li>
               <li
                 class="nav-item  px-2"
               >
@@ -136,16 +143,15 @@
     <!-- about page -->
 
     <section
-      class="sec p-1 py-5"
-      style="background-color: white"
+      class="sec p-1 py-5 "
       style="z-index: 10"
       id="about"
     >
-      <div class="container col-sm-12 d-flex justify-content-around my-2">
+      <div class="container col-sm-12 d-flex justify-content-around my-2 reveal">
         <div class="row">
           <div class="col-12">
             <h1
-              class="text-dark display-4 text-uppercase mt-5 mb-3 fw-lighter text-center"
+              class=" display-4 text-uppercase mt-5 mb-3 fw-lighter text-center"
             >
               About
             </h1>
@@ -153,19 +159,17 @@
             <!-- divider  -->
 
             <img
-              style="width: 350px"
-              class="mb-5"
-              src="img/star-divider2.png"
+              class="mb-5 dividers img-fluid"
+              src=""
               alt=""
             />
           </div>
         </div>
       </div>
 
-      <div class="container d-flex justify-content-center">
+      <div class="container d-flex justify-content-center reveal ">
         <div
-          class="row shadow p-3 mb-5 bg-body yellow-border border rounded-top border-warning mt-2 mb-5 p-3"
-          style="background-color: white"
+          class="row shadow p-3 mb-5  yellow-border border rounded-top border-warning mt-2 mb-5 p-3"
         >
           <div class="col-lg-6 col-md-12 col-sm-12">
             <!-- about image -->
@@ -206,7 +210,7 @@
       style="background-color: #1c1c1c;"
       id="hobbies"
     >
-      <div class="container col-sm-12 d-flex justify-content-around my-2">
+      <div class="container col-sm-12 d-flex justify-content-around my-2 reveal">
         <div class="row">
           <div class="col-12">
             <h1
@@ -227,7 +231,7 @@
         </div>
       </div>
 
-      <div class="container-fluid my-5  d-flex justify-content-center">
+      <div class="container-fluid my-5  d-flex justify-content-center reveal">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-12">
             <div
@@ -301,16 +305,15 @@
     <!-- project -->
 
     <section
-      class="sec py-5"
-      style="background-color: white"
+      class="sec py-5 "
       style="z-index: 3"
       id="projects"
     >
-      <div class="container col-sm-12 d-flex justify-content-around my-2">
+      <div class="container col-sm-12 d-flex justify-content-around my-2 reveal">
         <div class="row">
           <div class="col-12">
             <h1
-              class="text-dark display-4 text-uppercase mt-5 mb-3 fw-lighter text-center"
+              class=" display-4 text-uppercase mt-5 mb-3 fw-lighter text-center"
             >
               Projects
             </h1>
@@ -318,15 +321,14 @@
             <!-- divider  -->
 
             <img
-              style="width: 350px"
-              class="mb-5"
-              src="img/star-divider2.png"
+              class="mb-5 dividers1 img-fluid"
+              src=""
               alt=""
             />
           </div>
         </div>
       </div>
-      <div class="container  mt-2 mb-5 py-3 mx-auto border border-dark border-1  bg-light shadow-lg p-3 my-3">
+      <div class="container  mt-2 mb-5 py-3 mx-auto border border-dark border-1  shadow-lg p-3 my-3 reveal light-sectionProject1">
         <div class="row text-center mb-5">
           <div class="col-lg-4 col-md-6 col-sm-12 ">
             <a href="https://winterlanterns.github.io/W4B-Project/"><img class="project-img img-fluid" src="img/laptop.png" alt="" /></a>
@@ -353,7 +355,7 @@
       style="background-color: #1c1c1c; z-index: 3"
       id="artwork"
     >
-      <div class="container col-sm-12 d-flex justify-content-center my-2">
+      <div class="container col-sm-12 d-flex justify-content-center my-2 reveal">
         <div class="row">
           <div class="col-12">
             <h1
@@ -374,11 +376,11 @@
         </div>
       </div>
       <!-- slide  -->
-      <div class="container pb-5 mx-auto">
+      <div class="container pb-5 mx-auto reveal">
         <div class="row rounded-4  " style="background-color:#2b2b2b;opacity: 90%;">
           <div class="owl-carousel owl-theme " style="color: white;">
             <div class="item">
-              <div class="card  border-0 bg-transparent shadow-lg p-3 my-3 bg-white rounded text-uppercase text-light border-warning text-center" style="width: 15rem;">
+              <div class="card  border-0 bg-transparent shadow-lg p-3 my-3 rounded text-uppercase text-light border-warning text-center" style="width: 15rem;">
                   <img src="img/crow.png" class="card-img-top gallery" alt="...">
                   <div class="card-body">
                     <a href="https://i.ibb.co/qmMHVf8/228064-F8-2-D55-46-D3-9499-1-AA3219060-B3.jpg" class="text-decoration-none text-light card-title fs-5" ><span class="text-warning">✦</span>Crow<span class="text-warning">✦</span></a>
@@ -459,16 +461,15 @@
       <!-- contact  -->
 
       <section
-      class="sec p-1 "
-      style="background-color: white"
+      class="sec p-1"
       style="z-index: 10"
       id="contact"
     >
-      <div class="container col-sm-12 d-flex justify-content-around my-2">
+      <div class="container col-sm-12 d-flex justify-content-around my-2 reveal">
         <div class="row">
           <div class="col-12">
             <h1
-              class="text-dark display-4 text-uppercase mt-5 mb-3 fw-lighter text-center"
+              class=" display-4 text-uppercase mt-5 mb-3 fw-lighter text-center"
             >
               Contact
             </h1>
@@ -476,16 +477,15 @@
             <!-- divider  -->
 
             <img
-              style="width: 350px"
-              class="mb-2"
-              src="img/star-divider2.png"
+              class="mb-2 dividers2 img-fluid"
+              src=""
               alt=""
             />
           </div>
         </div>
       </div>
 
-      <div class="container-fluid my-5">
+      <div class="container-fluid my-5 reveal">
         <div class="container p-2">
           <form class="row" action="https://formsubmit.co/cccf831ce12d9aafa2d9cd9266072742" method="POST">
             <input type="text" name="_honey" style="display: none;">
@@ -532,7 +532,7 @@
       <!-- footer  -->
 
       <footer class="bg-color text-light pt-5 pb-4 my-auto">
-        <div class="container text-center">
+        <div class="container text-center ">
           <div class="row text-center ">
             <div class="col-lg-3 col-md-4 col-sm-12 mx-auto mt-3">
               <h5 class="text-uppercase mb-4 fw-bold text-warning">Thank You</h5>
@@ -598,6 +598,9 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <!-- JS -->
+    <script src="./js/script.js" defer></script>
+
     <!--OWL-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 

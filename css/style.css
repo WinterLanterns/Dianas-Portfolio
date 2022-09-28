@@ -1,6 +1,7 @@
 * {
   letter-spacing: 3px;
   font-weight: 300;
+  transition: all 0.5s linear;
 }
 header {
   background-color: #1c1c1c;
@@ -21,11 +22,11 @@ header {
   background-position: center;
   background-size: cover;
 }
+
 .bgimage-leaves {
   background: url(https://i.ibb.co/ns7kXkf/leaves.png);
   width: 100%;
   height: 120vh;
-
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
@@ -68,6 +69,7 @@ p {
 
 .project-img {
   height: auto;
+  transition: all 0.5s ease-in-out;
 }
 
 .project-img:hover {
@@ -104,4 +106,57 @@ p {
   margin: 0 auto;
   float: none;
   margin-bottom: 10px;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+body,
+.sec {
+  background-color: white;
+  color: #1c1c1c;
+}
+
+.dark-section {
+  background-color: #313131;
+  color: white;
+}
+.noHover {
+  border: none;
+}
+button:active {
+  outline: none;
+  border: none;
+}
+
+.light-mode {
+  content: url(/img/sun.png);
+  zoom: 1.5%;
+  transition: all 1s ease-in-out;
+}
+
+.dark-mode {
+  content: url(/img/moon.png);
+  zoom: 1.5%;
+}
+
+.dividers,
+.dividers1,
+.dividers2 {
+  content: url(/img/star-divider2.png);
+  zoom: 40%;
+}
+
+.dark-divider {
+  content: url(/img/star-dividers.png);
+  zoom: 40%;
 }
