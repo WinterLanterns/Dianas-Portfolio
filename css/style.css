@@ -139,25 +139,25 @@ button:active {
 }
 
 .light-mode {
-  content: url(/img/sun.png);
+  content: url(https://i.ibb.co/6tw8N0Y/sun.png);
   zoom: 1.5%;
   transition: all 1s ease-in-out;
 }
 
 .dark-mode {
-  content: url(/img/moon.png);
+  content: url(https://i.ibb.co/56NRrYc/moon.png);
   zoom: 1.5%;
 }
 
 .dividers,
 .dividers1,
 .dividers2 {
-  content: url(/img/star-divider2.png);
+  content: url(https://i.ibb.co/FYNGdDN/star-divider2.png);
   zoom: 40%;
 }
 
 .dark-divider {
-  content: url(/img/star-dividers.png);
+  content: url(https://i.ibb.co/5jQJ6WZ/star-dividers.png);
   zoom: 40%;
 }
 
