@@ -160,13 +160,11 @@ button:active {
 .dividers,
 .dividers1,
 .dividers2 {
-  content: url(https://i.ibb.co/FYNGdDN/star-divider2.png);
-  zoom: 40%;
+  content: url(https://i.ibb.co/kQjY7sd/blackdivider.png);
 }
 
 .dark-divider {
-  content: url(https://i.ibb.co/5jQJ6WZ/star-dividers.png);
-  zoom: 40%;
+  content: url(https://i.ibb.co/jwRdBnW/whitedivider.png);
 }
 
 .form-control {
