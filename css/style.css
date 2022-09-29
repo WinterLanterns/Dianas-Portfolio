@@ -142,23 +142,19 @@ button:active {
 }
 
 .light-mode {
-  content: url(https://i.ibb.co/6tw8N0Y/sun.png);
-  zoom: 1.5%;
+  content: url(https://i.ibb.co/Kb9WrNg/sunmine.png);
 }
 
 .light-mode2 {
-  content: url(https://i.ibb.co/6tw8N0Y/sun.png);
-  zoom: 3%;
+  content: url(https://i.ibb.co/Kb9WrNg/sunmine.png);
 }
 
 .dark-mode2 {
-  content: url(https://i.ibb.co/56NRrYc/moon.png);
-  zoom: 3%;
+  content: url(https://i.ibb.co/rmJWgm4/moonmini.png);
 }
 
 .dark-mode {
-  content: url(https://i.ibb.co/56NRrYc/moon.png);
-  zoom: 1.5%;
+  content: url(https://i.ibb.co/rmJWgm4/moonmini.png);
 }
 
 .dividers,
