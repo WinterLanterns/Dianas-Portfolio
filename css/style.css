@@ -1,7 +1,6 @@
 * {
   letter-spacing: 3px;
   font-weight: 300;
-  overflow-x: hidden;
 
 }
 header {
@@ -44,6 +43,7 @@ h5 {
   font-family: "Marcellus", serif;
   line-height: 2rem;
   z-index: 3;
+  overflow-y: hidden;
 }
 
 p {
