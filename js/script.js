@@ -16,6 +16,9 @@ function reveal() {
 
 function darkM() {
   //this selects the section and switches it to dark-mode class css code.
+  clickSound = new Audio("media/clickswitch.mp3");
+  clickSound.volume = 0.25;
+  clickSound.play();
   let darkMode = document.querySelector(".light-mode");
   darkMode.classList.toggle("dark-mode");
   let section1 = document.querySelector("section");
