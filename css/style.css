@@ -157,6 +157,11 @@ button:active {
   content: url(https://i.ibb.co/rmJWgm4/moonmini.png);
 }
 
+.black-border {
+  border: 1px solid black;
+}
+
+
 .dividers,
 .dividers1,
 .dividers2 {
