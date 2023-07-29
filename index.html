@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diana's Portfolio</title>
     <!-- CSS link  -->
     <link rel="stylesheet" href="css/style.css" />
@@ -43,61 +43,40 @@
   <body style="background-color:#1c1c1c">
     <!-- nav -->
     <header class="py-2 shadow bgimage-leaves h-auto" style="z-index: 3;background-color: #1c1c1c;">
-      <nav
-        class="navbar py-2 border-top-0 border-left-0 border-right-0 border-bottom border-warning navbar-dark navbar-expand-lg h-auto fixed-top py-2 text-uppercase"
-        style="background-color: #1c1c1c; opacity: 90%"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand  fs-3 logo" href="#"
-            ><i class="text-warning fa-solid fa-star-and-crescent"></i> Diana
-            Diaz</a
-          >
-          <button
-            class="navbar-toggler border border-warning"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-control="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+      <nav class="navbar py-2 border-top-0 border-left-0 border-right-0 border-bottom border-warning navbar-dark navbar-expand-lg h-auto fixed-top py-2 text-uppercase" style="background-color: #1c1c1c; opacity: 90%">
+        <div class="container mx-auto">
+          <a class="navbar-brand fs-3 logo" href="#">
+            <i class="text-warning fa-solid fa-star-and-crescent"></i> Diana Diaz
+          </a>
+          <button class="navbar-toggler border border-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-control="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li
-              class="nav-item d-flex align-items-center">
-              <button class="btn border-0 noHover" onclick="darkM()"><img class="light-mode" src="" alt=""></button>
+              <li class="nav-item d-flex align-items-center">
+                <button class="btn border-0 noHover" onclick="darkM()">
+                  <img class="light-mode" src="" alt="">
+                </button>
               </li>
-              <li
-                class="nav-item  px-2"
-              >
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
+              <li class="nav-item px-2">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item px-2 dropdown">
-                <a class="nav-link dropdown-toggle text-light" href="#about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  About
-                </a>
+                <a class="nav-link dropdown-toggle text-light" href="#about" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#about">About Me</a></li>
                   <li><a class="dropdown-item" href="#hobbies">Hobbies</a></li>
                 </ul>
+              </li>
               <li class="nav-item px-2 dropdown">
-                <a class="nav-link dropdown-toggle text-light" href="#projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Projects
-                </a>
+                <a class="nav-link dropdown-toggle text-light" href="#projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#projects">Projects</a></li>
                   <li><a class="dropdown-item" href="#artwork">Artwork</a></li>
                 </ul>
-              <li
-                class="nav-item px-2"
-              >
-                <a class="nav-link active" aria-current="page" href="#contact"
-                  >Contact</a
-                >
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
