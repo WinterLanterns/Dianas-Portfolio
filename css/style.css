@@ -1,15 +1,9 @@
 * {
   letter-spacing: 3px;
   font-weight: 300;
-  overflow-x: hidden;
-
 }
 header {
   background-color: #1c1c1c;
-}
-
-h1, h2, h3, h4, h5 {
-  overflow: hidden;
 }
 
 .logo {
@@ -85,20 +79,6 @@ p {
   background-color: #5a5959;
 }
 
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 50%;
-  position: relative;
-  height: 0;
-}
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
 .bg-color {
   background-color: #1c1c1c;
 }
@@ -129,7 +109,8 @@ section {
   transition: all 0.5s linear;
 }
 body,
-.sec, .sucPage{
+.sec,
+.sucPage {
   background-color: white;
   color: #1c1c1c;
 }
@@ -148,37 +129,42 @@ button:active {
 
 .light-mode {
   content: url(https://i.ibb.co/Kb9WrNg/sunmine.png);
+  margin: 0 auto;
 }
 
 .light-mode2 {
   content: url(https://i.ibb.co/Kb9WrNg/sunmine.png);
+  margin: 0 auto;
 }
 
 .dark-mode2 {
   content: url(https://i.ibb.co/rmJWgm4/moonmini.png);
+  margin: 0 auto;
 }
 
 .dark-mode {
   content: url(https://i.ibb.co/rmJWgm4/moonmini.png);
+  margin: 0 auto;
 }
 
 .black-border {
   border: 1px solid black;
 }
 
-
 .dividers,
 .dividers1,
 .dividers2 {
   content: url(https://i.ibb.co/kQjY7sd/blackdivider.png);
+  width: auto;
 }
 
 .dark-divider {
   content: url(https://i.ibb.co/jwRdBnW/whitedivider.png);
+  width: auto;
 }
 
 .form-control {
-  background-color:none; !important
+  background-color: none;
   color: #1c1c1c;
 }
 
